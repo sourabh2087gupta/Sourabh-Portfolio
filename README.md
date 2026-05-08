@@ -4,7 +4,7 @@ A modern personal portfolio website showcasing my skills, projects, certificatio
 
 ## 🚀 Live Demo
 
-[View Portfolio](YOUR_NETLIFY_LINK_HERE)
+[View Portfolio](https://sourabh2006.netlify.app/)
 
 ## 📌 About
 
