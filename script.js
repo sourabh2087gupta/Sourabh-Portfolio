@@ -55,7 +55,8 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach((item) => revealObserver.observe(item));
 
-const words = ['data dashboards', 'SQL insights', 'Excel reports', 'AI web apps'];
+// Added 'Power BI systems' to typeloop array to explicitly present core capabilities[cite: 8]
+const words = ['data dashboards', 'SQL insights', 'Power BI frameworks', 'AI web apps'];
 let wordIndex = 0;
 let charIndex = 0;
 let deleting = false;

@@ -69,36 +69,36 @@
         </div>
 
         <div class="hero-stats" aria-label="Portfolio highlights">
-          <div><strong>5+</strong><span>Projects</span></div>
-          <div><strong>SQL</strong><span>Analysis</span></div>
-          <div><strong>Excel</strong><span>Dashboards</span></div>
-          <div><strong>AI</strong><span>Gemini API</span></div>
+          <div class="stat-box"><strong>6+</strong><span>Projects Built</span></div>
+          <div class="stat-box"><strong>SQL</strong><span>Relational Normalization</span></div>
+          <div class="stat-box"><strong>BI</strong><span>Quantitative Modeling</span></div>
+          <div class="stat-box"><strong>AI</strong><span>Serverless Ingestion</span></div>
         </div>
       </div>
 
       <aside class="hero-visual reveal" aria-label="Profile card">
-        <div class="profile-card">
+        <div class="profile-card dashboard-theme">
           <div class="profile-top">
             <div class="avatar-ring">
               <img src="Sourabh.png" alt="Sourabh Gupta profile photo" />
             </div>
             <div>
               <h3>Sourabh Gupta</h3>
-              <p>Aspiring Data Analyst</p>
+              <p>Data Analyst Intern</p>
             </div>
           </div>
 
           <div class="mini-dashboard">
-            <div class="bar-row"><span>SQL</span><i style="--w: 86%"></i></div>
+            <div class="bar-row"><span>SQL</span><i style="--w: 92%"></i></div>
             <div class="bar-row"><span>Excel</span><i style="--w: 90%"></i></div>
-            <div class="bar-row"><span>Python</span><i style="--w: 78%"></i></div>
-            <div class="bar-row"><span>JS</span><i style="--w: 72%"></i></div>
+            <div class="bar-row"><span>Python</span><i style="--w: 84%"></i></div>
+            <div class="bar-row"><span>Power BI</span><i style="--w: 88%"></i></div>
           </div>
 
           <div class="profile-tags">
-            <span>Data Cleaning</span>
-            <span>EDA</span>
-            <span>Dashboards</span>
+            <span>Data Engineering</span>
+            <span>ETL Pipelines</span>
+            <span>Quantitative Analytics</span>
           </div>
         </div>
       </aside>
@@ -129,7 +129,7 @@
             <div class="timeline-item">
               <span></span>
               <div>
-                <strong>Bachelor of Computer Applications</strong>
+                <strong>Bachelor of Computer Applications (BCA)</strong>
                 <p>Shikshapeeth College, MDU • 2023 – 2026</p>
               </div>
             </div>
@@ -137,14 +137,14 @@
               <span></span>
               <div>
                 <strong>Class XII</strong>
-                <p>The Adarsh School • Accountancy, Business Studies, Economics</p>
+                <p>The Adarsh School • Accountancy, Business Studies, Economics • 2022 - 2023</p>
               </div>
             </div>
             <div class="timeline-item">
               <span></span>
               <div>
                 <strong>Class X</strong>
-                <p>The Adarsh School</p>
+                <p>The Adarsh School • 2020 - 2021</p>
               </div>
             </div>
           </div>
@@ -166,22 +166,41 @@
       </div>
 
       <div class="project-grid">
-        <article class="project-card featured reveal" data-category="data">
-          <div class="project-visual data-visual">
-            <i class="fa-solid fa-chart-line"></i>
-            <span>Featured Data Project</span>
+        <article class="project-card featured reveal interactive-hover" data-category="data">
+          <div class="project-visual data-visual high-fidelity">
+            <i class="fa-solid fa-chart-pie animate-pulse"></i>
+            <span>Featured Capstone Project</span>
           </div>
           <div class="project-body">
-            <div class="project-meta"><span>Data Analysis</span><span>Featured</span></div>
+            <div class="project-meta"><span>Financial Analytics</span><span>Featured</span></div>
+            <h3>Mutual Fund Analytics Platform</h3>
+            <p>
+              Engineered an end-to-end data engineering platform to ingest, clean, evaluate, and visualize mutual fund data using a normalized SQLite3 database structure.
+            </p>
+            <ul class="insights">
+              <li>Automated a Python Pandas ETL pipeline to resolve values and validate schemas.</li>
+              <li>Formulated risk-adjusted statistical models tracking 3-Yr CAGR, Sharpe, and Sortino Ratios.</li>
+              <li>Deployed an interactive, multi-page Power BI dashboard for strategic matrix monitoring.</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>SQLite3</span><span>Pandas</span><span>Power BI</span><span>Quantitative Finance</span></div>
+            <div class="card-actions">
+              <a href="https://github.com/sourabh2087gupta/bluestock_mf_capstone" target="_blank" rel="noreferrer">GitHub <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal interactive-hover" data-category="data">
+          <div class="project-visual data-visual">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Data Project</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Data Analysis</span></div>
             <h3>Customer Churn Analysis</h3>
             <p>
               Analyzed telecom customer churn using SQL, Excel and Python to find patterns across tenure,
               contract type, payment method and customer segments.
             </p>
-            <ul class="insights">
-              <li>Identified high-risk churn groups.</li>
-              <li>Created visual insights and recommendations.</li>
-            </ul>
             <div class="tags"><span>SQL</span><span>Excel</span><span>Python</span><span>Pandas</span><span>Matplotlib</span></div>
             <div class="card-actions">
               <a href="https://github.com/sourabh2087gupta/customer-churn-analysis" target="_blank" rel="noreferrer">GitHub <i class="fa-brands fa-github"></i></a>
@@ -189,7 +208,7 @@
           </div>
         </article>
 
-        <article class="project-card reveal" data-category="data">
+        <article class="project-card reveal interactive-hover" data-category="data">
           <div class="project-visual excel-visual">
             <i class="fa-solid fa-table-columns"></i>
             <span>Dashboard</span>
@@ -208,7 +227,7 @@
           </div>
         </article>
 
-        <article class="project-card reveal" data-category="web">
+        <article class="project-card reveal interactive-hover" data-category="web">
           <div class="project-visual ai-visual">
             <i class="fa-solid fa-wand-magic-sparkles"></i>
             <span>AI App</span>
@@ -228,7 +247,7 @@
           </div>
         </article>
 
-        <article class="project-card reveal" data-category="mini">
+        <article class="project-card reveal interactive-hover" data-category="mini">
           <div class="project-visual game-visual">
             <i class="fa-solid fa-gamepad"></i>
             <span>Game</span>
@@ -248,7 +267,7 @@
           </div>
         </article>
 
-        <article class="project-card reveal" data-category="web">
+        <article class="project-card reveal interactive-hover" data-category="web">
           <div class="project-visual portfolio-visual">
             <i class="fa-solid fa-laptop-code"></i>
             <span>Portfolio</span>
@@ -262,7 +281,7 @@
             </p>
             <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span></div>
             <div class="card-actions">
-              <a href="https://github.com/sourabh2087gupta/My-Portfolio" target="_blank" rel="noreferrer">GitHub <i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/sourabh2087gupta/Sourabh-Portfolio" target="_blank" rel="noreferrer">GitHub <i class="fa-brands fa-github"></i></a>
               <a href="https://sourabh2006.netlify.app/" target="_blank" rel="noreferrer">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
@@ -277,29 +296,29 @@
       </div>
 
       <div class="skills-grid">
-        <article class="skill-group reveal">
+        <article class="skill-group reveal interactive-hover">
           <i class="fa-solid fa-magnifying-glass-chart"></i>
           <h3>Data Analysis</h3>
-          <p>Data Cleaning, EDA, KPI Reporting, Business Insights</p>
-          <div><span>SQL</span><span>Excel</span><span>Python</span></div>
+          <p>Data Cleaning, EDA, KPI Reporting, Financial Statistical Modeling</p>
+          <div><span>SQL</span><span>Excel</span><span>Python</span><span>CAGR</span></div>
         </article>
-        <article class="skill-group reveal">
+        <article class="skill-group reveal interactive-hover">
           <i class="fa-solid fa-chart-pie"></i>
           <h3>Dashboarding</h3>
-          <p>Pivot Tables, Charts, Excel Dashboards, KPI Tracking</p>
-          <div><span>MS Excel</span><span>Charts</span><span>Reports</span></div>
+          <p>Pivot Tables, Excel Analytics, Power BI Multi-Page Reports</p>
+          <div><span>MS Excel</span><span>Power BI</span><span>Dashboards</span></div>
         </article>
-        <article class="skill-group reveal">
+        <article class="skill-group reveal interactive-hover">
           <i class="fa-solid fa-code"></i>
           <h3>Web Development</h3>
           <p>Clean responsive UI with HTML, CSS, JavaScript and API integration</p>
           <div><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
         </article>
-        <article class="skill-group reveal">
+        <article class="skill-group reveal interactive-hover">
           <i class="fa-solid fa-toolbox"></i>
           <h3>Tools</h3>
-          <p>GitHub, Netlify, VS Code, Google AI Studio and deployment workflows</p>
-          <div><span>Git</span><span>Netlify</span><span>Gemini API</span></div>
+          <p>GitHub, SQLite3, Netlify, VS Code, Serverless Ingestion Setups</p>
+          <div><span>Git</span><span>SQLite3</span><span>Netlify</span><span>Gemini API</span></div>
         </article>
       </div>
     </section>
@@ -311,23 +330,33 @@
       </div>
 
       <div class="cert-grid">
-        <article class="cert-card reveal">
+        <article class="cert-card reveal interactive-hover">
           <span>01</span>
+          <h3>Data Analyst Skill Certification</h3>
+          <p>Verified analytical and reporting skills through OneRoadmap</p>
+        </article>
+        <article class="cert-card reveal interactive-hover">
+          <span>02</span>
+          <h3>AINCAT 2026 - Career Aptitude Test</h3>
+          <p>Successfully evaluated national skill ranking score via Naukri Campus benchmarking.</p>
+        </article>
+        <article class="cert-card reveal interactive-hover">
+          <span>03</span>
           <h3>Deloitte Data Analytics Job Simulation</h3>
           <p>Data Analysis and Forensic Technology practical tasks through Forage.</p>
         </article>
-        <article class="cert-card reveal">
-          <span>02</span>
+        <article class="cert-card reveal interactive-hover">
+          <span>04</span>
           <h3>Claude Code in Action</h3>
           <p>AI-assisted development workflow certification focused on Claude Code.</p>
         </article>
-        <article class="cert-card reveal">
-          <span>03</span>
+        <article class="cert-card reveal interactive-hover">
+          <span>05</span>
           <h3>Claude 101 – AI Fundamentals</h3>
           <p>AI fundamentals and practical Claude understanding.</p>
         </article>
-        <article class="cert-card reveal">
-          <span>04</span>
+        <article class="cert-card reveal interactive-hover">
+          <span>06</span>
           <h3>Labmentix Common Aptitude Test</h3>
           <p>Aptitude and reasoning certification.</p>
         </article>
